@@ -1,0 +1,24 @@
+# ===== Your specific configuration goes below / please adapt ========
+
+# the HCP account id - trial accounts typically look like p[0-9]*trial
+hcp_account_id='<hcp account id>trial'
+
+# you only need to adapt this part of the URL if you are NOT ON TRIAL but e.g. on PROD
+hcp_landscape_host='.hanatrial.ondemand.com'
+# hcp_landscape_host='.hana.ondemand.com' # this is used on PROD
+
+# these credentials are used from applications with the "push messages to devices" API
+hcp_user_credentials='<user>:<pwd>'
+
+# optional network proxy, set if to be used, otherwise set to ''
+proxy_url=''
+# proxy_url='http://10.74.91.103:80'
+
+# the following values need to be taken from the IoT Cockpit
+device_id='408bf429-8d63-4f5b-9d88-d5b6af2512ad'
+oauth_credentials_for_device='f6cd8bb137ba2d418dac4fceb89b298'
+
+message_type_id_From_device='bba0f6ffa40f5ab24ab0'
+message_type_id_To_device='86e498ab145db1ac91e6'
+
+# ===== nothing to be changed / configured below this line ===========
