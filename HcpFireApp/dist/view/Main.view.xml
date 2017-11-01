@@ -1,0 +1,39 @@
+<mvc:View controllerName="com.hcpfireapp.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Panel id="idMainPanel" headerText = "{i18n>fireupdate}" width="auto" class="sapUiResponsiveMargin" expandable="true" expanded="true">
+					<VBox class="sapUiResponsiveMargin">
+					<HBox>	
+					<Label text="Notification:" design="Bold"/>
+					<Text id="idNotifText" class="sapUiTinyMarginBegin"/>
+					<Text id="idNotifTime" class="sapUiTinyMarginBegin"/>
+					</HBox>
+					<Label text="Image:" design="Bold"/>
+    				</VBox>
+					</Panel>
+					<Panel headerText = "{i18n>moredetails}" width="auto" class="sapUiResponsiveMargin" expandable="true" expanded="true">
+						<IconTabBar id="idIconTabBarMulti" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding" expandable="true">
+							<items>
+								<IconTabFilter icon="sap-icon://customer-briefing">
+									<Text text="Emergency contact ..."/>
+								</IconTabFilter>
+								<IconTabFilter icon="sap-icon://history" count="3">
+									<Text text="History detail ..."/>
+								</IconTabFilter>
+								<IconTabFilter icon="sap-icon://notes" count="12">
+									<Text text="Additional information ..."/>
+								</IconTabFilter>
+								<IconTabFilter icon="sap-icon://map">
+									<Text text="Location details ..."/>
+								</IconTabFilter>
+							</items>
+						</IconTabBar>
+					</Panel>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

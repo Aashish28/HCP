@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "HcpFireApp",
+        "description": "Fire Notification App",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#HcpFireApp-Display",
+        "navigationComponentName": "com.hcpfireapp",
+        "intentSemanticObject": "HcpFireApp",
+        "intentAction": "Display",
+        "html5ApplicationName": "hcpfireapp",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "93799315-7db4-49e6-bb18-ab7daad16bae"
+        ],
+        "contentPackages": [
+            "9de25986-9dce-4dc1-94e2-d5aa3b91506d"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Fire Notification App",
+        "subtitle": "",
+        "searchKeywords": "Fire Notification App,",
+        "displayIconUrl": "sap-icon://notification-2",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
